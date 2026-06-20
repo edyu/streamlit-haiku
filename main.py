@@ -12,9 +12,3 @@ else:
     page = st.navigation([pages['login'], pages['signup']])
 
 page.run()
-
-# st.title('Haiku Haven')
-
-# database = Database()
-# query_results = database.execute_query('SELECT * FROM haikus')
-# st.write(query_results)
